@@ -1,0 +1,25 @@
+.pageHeader .type {
+    color: var(--secondary-red-color);
+    font-weight: 500;
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pageHeader .type::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: var(--secondary-red-color);
+    left: 0;
+    border-radius: 4px;
+}
+
+.pageHeader .title{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}

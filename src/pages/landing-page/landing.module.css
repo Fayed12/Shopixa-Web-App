@@ -1,0 +1,35 @@
+:root{
+  --primary-light-color:#ffffff;
+  --primary-dark-color:#363738;
+  --secondary-light1-color:#F5F5F5;
+  --secondary-light2-color:#FEFAF1;
+  --secondary-red-color:#DB4444;
+  --background-color: #ffffff;
+  --text-color-one:#FAFAFA;
+  --text-color-two:#7D8184;
+  --text-dark-color-two:#000000;
+  --button-card-color:#000000;
+  --button-one-color:#47B486;
+  --button-two-color:#DB4444;
+  --button-hover-one-color:#E07575;
+  --button-hover-two-color:#A0BCE0;
+}
+
+/* start home */
+.home{
+    padding: 0px 20px;
+}
+
+.home .overview{
+    margin: 30px 0px;
+    padding: 20px;
+    background-color: var(--button-card-color);
+}
+
+.home .flashSales{
+  width: 100%;
+  padding: 50px 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--text-color-two);
+}
+/* end home */

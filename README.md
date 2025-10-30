@@ -10,6 +10,8 @@
 #### 3- MUI
 #### 4- react icons
 #### 5- redux toolKit
-#### 6- toast
+#### 6- react redux
+#### 7- toast
+#### 8- react-scroll
 
 © 2025 Mohamed Fayed. All rights reserved.

@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: 'WinkySans';
   src: url('./assets/fonts/WinkySans-VariableFont_wght.ttf') format('truetype');
@@ -58,4 +60,12 @@ ul{
 
 a{
   text-decoration: none;
+  transition: .4s;
+  padding: 5px 10px;
+}
+
+a.active{
+  color: var(--text-color-one);
+  background-color: var(--button-two-color);
+  border-radius: 5px;
 }
